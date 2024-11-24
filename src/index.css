@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.artifika-regular{
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: url("/src/assets/bg_Wallpaper.jpg") no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather_app {
+  backdrop-filter: blur(50px);
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.5);
+}
