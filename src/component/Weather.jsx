@@ -33,7 +33,7 @@ const Weather = () => {
             } else if (data.weather[0].main === "Mist") {
                 imagePath = snow;
             } else {
-                imagePath = wind;
+                imagePath = cloud;
             }
 
             console.log(data);
